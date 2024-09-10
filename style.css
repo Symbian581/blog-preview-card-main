@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50rem;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 22px;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 10px 10px black;
+  width: 384px;
+}
+
+.img-main {
+  border-radius: 20px;
+}
+
+.text-main {
+  background-color: hsl(47, 88%, 63%);
+  padding: 10px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 22px;
+  border-radius: 5px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.part-1 p {
+  font-family: "Figtree", sans-serif;
+  margin: 15px 0px 20px 0px;
+  font-weight: 500;
+}
+
+.head-main {
+  font-weight: 800;
+  font-size: 1.4rem;
+  font-family: "Figtree", sans-serif;
+  margin-bottom: 20px;
+}
+
+.part-2 p {
+  color: hsl(0, 0%, 42%);
+  font-size: 1rem;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  margin-top: 25px;
+}
+
+.foot img {
+  width: 30px;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 327px;
+  }
+  .img-main img {
+    width: 17.5rem;
+
+  }
+}
